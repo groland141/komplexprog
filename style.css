@@ -4,7 +4,9 @@ body{
     
 }
 p{
-font-size: 16px;
+font-size: 18px;
+font-family: sans-serif;
+text-align: justify;
 }
 ul{
     list-style-type: square;
@@ -65,7 +67,7 @@ h3{
     border-radius: 10px;
     padding: 4px 3px 4px 0px;
     right: 1%;
-    top: 5%;
+    top: 6%;
     transform: translateX(-50%) translateY(-50%);
     margin: 0;
 }
@@ -83,4 +85,39 @@ h3{
 #teknos
 {
     height: 215px;
+}
+
+
+h1
+{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.card-body a:hover 
+{
+    color: #63a6b0;
+    text-decoration: none;
+}
+
+.footer
+{
+    background-color: #303036;
+    text-align: center;
+    color: white;
+    height: 30px;
+}
+.kep
+{
+    margin: 7px;
+}
+#orafelett
+{
+    font-weight: bold;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    right: 4%;
+    top: 2%;
+    transform: translateX(-50%) translateY(-50%);
+    margin: 0;
 }
